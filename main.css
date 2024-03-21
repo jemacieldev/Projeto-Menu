@@ -6,7 +6,7 @@
 }
 
 .container {
-    max-width: 1024px;
+    max-width: 1285px;
     width: 100%;
     margin: 0 auto;
 }
@@ -65,8 +65,12 @@ header {
     grid-template-columns: 70% 30%;
 }
 
-.noticia-img {
+.noticia img {
     max-width: 100%;
+}
+
+.destaque {
+    margin-bottom: 56px;
 }
 
 .destaque .noticia a {
@@ -79,7 +83,7 @@ header {
 }
 
 section h2 {
-    margin-bottom: 32px;
+    margin-bottom: 30px;
 }
 
 aside {
@@ -94,8 +98,8 @@ aside .noticia {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* Usei 1fr ao invés de 25% para lidar melhor com o espaçamento */
-    column-gap: 1%;
+    column-gap: 20px;
     /* Adiciona um espaçamento entre as colunas */
-    row-gap: 5%;
+    row-gap: 20px;
     /* Adiciona um espaçamento entre as linhas */
 }
